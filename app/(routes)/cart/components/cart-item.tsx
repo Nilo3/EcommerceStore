@@ -29,6 +29,7 @@ const CartItem: React.FC<CartItemProps> = ({
           src={data.images[0].url}
           alt=""
           className="object-cover object-center"
+          priority 
         />
       </div>
       <div className="relative ml-4 flex flex-1 flex-col justify-between sm:ml-6">
