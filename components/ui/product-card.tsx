@@ -20,6 +20,8 @@ const ProductCard: React.FC<ProductCard> = ({
     const cart = useCart()
     const previewModal = usePreviewModal()
     const router = useRouter()
+    
+    
 
     const handleClick  = () => {
         router.push(`/product/${data?.id}`);
